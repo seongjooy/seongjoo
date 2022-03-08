@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Lato:wght@300&family=PT+Sans&family=Raleway:wght@300&family=Source+Sans+Pro&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Julius Sans One", sans-serif;
+  font-family: "Lato", sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+}
+
+html,
+body {
+  background: rgb(28, 23, 83);
+}
+
+body {
+  background: rgb(28, 23, 83);
+  background-repeat: no-repeat;
+}
+
+p {
+  margin: 16px auto;
+  line-height: 1.5em;
+  font-size: 25px;
+}
+
+.layout {
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-bottom: 50px;
+}
+
+.nav {
+  font-size: 25px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display: flex;
+}
+
+.nav h1 {
+  font-size: 2em;
+  padding-right: 220px;
+}
+
+.navbutton {
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  background-color: #fff;
+  border: 2px solid #000;
+  box-sizing: border-box;
+  color: #000;
+  cursor: pointer;
+  display: inline-flex;
+  fill: #000;
+  font-family: Inter, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: -0.8px;
+  line-height: 24px;
+  min-width: 140px;
+  padding: 0 17px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  border-radius: 5px;
+}
+
+.navbutton:hover {
+  border-color: #06f;
+  color: #06f;
+  fill: #06f;
+  background-color: rgb(183, 183, 255);
+}
+
+.navbutton:active {
+  border-color: rgb(5, 21, 44);
+  color: rgb(5, 21, 44);
+  fill: rgb(5, 21, 44);
+}
+
+.footer {
+  padding-top: 180px;
+  padding-bottom: 50px;
+  text-align: center;
+}
