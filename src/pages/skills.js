@@ -7,13 +7,12 @@ const About = () => {
     <div>
       <Layout>
         <div className={styles.header} data-aos="slide-right">
-          About Me
+          My Skills
         </div>
         <div className={styles.intro} data-aos="slide-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor
           enim varius diam egestas, id lobortis eros elementum. Integer sit amet
           interdum risus. Aliquam ullamcorper, ipsum id ornare porttitor, magna
-          turpis varius nisi, id interdum justo nisl quis risus. Curabitur
           iaculis neque diam, in eleifend ex viverra eget. Curabitur blandit est
           vitae est ultrices, eget feugiat enim volutpat. Phasellus molestie
           finibus augue feugiat pharetra. Praesent dictum eget tellus in
