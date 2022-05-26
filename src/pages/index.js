@@ -35,6 +35,36 @@ const IndexPage = () => {
                 nulla pariatur. Excepteur sint occaecat cupidatat non proident,
               </p>
             </div>
+            <div className={styles.contactlinks}>
+              <a
+                href="https://github.com/seongjooy"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.snsbutton} src="/github.png" alt="" />
+              </a>
+              <a
+                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.snsbutton} src="/linkedin.png" alt="" />
+              </a>
+              <a
+                href="https://www.instagram.com/_seongjoo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.snsbutton} src="/instagram.png" alt="" />
+              </a>
+              <a
+                href="https://www.facebook.com/stephanseongjoo/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img className={styles.snsbutton} src="/facebook.png" alt="" />
+              </a>
+            </div>
           </div>
           <div className={styles.right}>
             <div className={styles.displaycontent}>
@@ -65,36 +95,6 @@ const IndexPage = () => {
                 <img className={styles.photos} src="/email.png"></img>
                 <br />
               </h2>
-            </div>
-            <div className={styles.contactlinks}>
-              <a
-                href="https://github.com/seongjooy"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img className={styles.btn} src="/github.png" alt="" />
-              </a>
-              <a
-                href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img className={styles.btn} src="/linkedin.png" alt="" />
-              </a>
-              <a
-                href="https://www.instagram.com/_seongjoo/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img className={styles.btn} src="/instagram.png" alt="" />
-              </a>
-              <a
-                href="https://www.facebook.com/stephanseongjoo/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <img className={styles.btn} src="/facebook.png" alt="" />
-              </a>
             </div>
           </div>
         </div>
