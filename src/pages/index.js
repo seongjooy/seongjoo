@@ -14,6 +14,8 @@ const IndexPage = () => {
       <section className={styles.header} data-aos="slide-right">
         <div className={styles.container}>
           <div className={styles.left}>
+            About Me
+            <hr></hr>
             <div>
               <h4>
                 Student at the University of Toronto
@@ -22,9 +24,7 @@ const IndexPage = () => {
                 <br /> seongjooyoon@gmail.com | seongjoo.yoon@mail.utoronto.ca
               </h4>
             </div>
-
             <img className={styles.dp} src="/github.png" alt=""></img>
-
             <div className="intro">
               <p>
                 "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

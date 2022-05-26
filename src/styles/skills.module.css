@@ -1,6 +1,11 @@
 .header {
-  font-size: 40px;
+  font-size: 30px;
   padding-top: 20px;
+}
+
+hr {
+  margin-top: 5px;
+  width: 20%;
 }
 
 .intro {

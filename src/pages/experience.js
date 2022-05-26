@@ -7,6 +7,7 @@ const experience = () => {
     <Layout>
       <div className={styles.header} data-aos="slide-right">
         My Experience
+        <hr></hr>
       </div>
       <div className={styles.container}>
         <div className={styles.job1}>
@@ -24,8 +25,9 @@ const experience = () => {
           </div>
         </div>
       </div>
-      <div className={styles.awards_certificates} data-aos="slide-right">
+      <div className={styles.header} data-aos="slide-right">
         Honours/Certificates
+        <hr></hr>
       </div>
       <div
         className={styles.awards_certificates_container}

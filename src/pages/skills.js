@@ -8,6 +8,7 @@ const About = () => {
       <Layout>
         <div className={styles.header} data-aos="slide-right">
           My Skills
+          <hr></hr>
         </div>
         <div className={styles.intro} data-aos="slide-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam tempor

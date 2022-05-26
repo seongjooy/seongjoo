@@ -8,6 +8,7 @@ const Projects = () => {
     <Layout>
       <div className={styles.header} data-aos="slide-right">
         My Projects
+        <hr></hr>
         <div
           className={styles.temp}
           data-aos="slide-right"
