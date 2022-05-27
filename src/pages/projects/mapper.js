@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 const mapper = () => {
   return (
     <Layout>
-      <Link className="navbutton" to="/projects">
+      <Link className="navbutton" to="/projects" data-aos="slide-right">
         Back
       </Link>
     </Layout>

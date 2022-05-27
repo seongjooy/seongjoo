@@ -102,3 +102,15 @@ h5 {
   padding-bottom: 20px;
   margin-left: 30px;
 }
+
+#resume_file {
+  color: rgb(101, 101, 206);
+}
+
+#resume_file:hover {
+  color: rgb(176, 175, 219);
+}
+
+#resume_file:active {
+  color: rgba(17, 47, 216, 0.986);
+}

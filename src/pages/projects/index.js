@@ -15,37 +15,41 @@ const Projects = () => {
           data-aos-duration="500"
         >
           <div className={styles.project}>
+            Memory Allocation of Dynamic Arrays Visualizer
+            <Link to="/projects/mapper">
+              <img className={styles.preview} src="/gis-mapper.png" alt="" />
+            </Link>
+            <div className={styles.text}>Javascript, ReactJS, HTML, CSS</div>
+          </div>
+          <div className={styles.project}>
+            Prediction of Septic Shock Using XGBoost
+            <Link to="/projects/mapper">
+              <img className={styles.preview} src="/gis-mapper.png" alt="" />
+            </Link>
+            <div className={styles.text}>
+              Utilized a gradient boosting algorithm (XGBoost) to predict the
+              onset of septic shock in an ICU patient. Dataset source is
+              preprocessed MIMIC-III data.
+              <br />
+              <br />
+              Python, Scikit-Learn, XGBoost
+            </div>
+          </div>
+          <div className={styles.project}>
             Geographic Information System Mapper
             <Link to="/projects/mapper">
               <img className={styles.preview} src="/gis-mapper.png" alt="" />
             </Link>
             <div className={styles.text}>
-              Used C++ to develop a mapping software using OpenStreetMap API.
+              Developed a city mapping software using C++ and OpenStreetMap API.
               Used Git for version control amongst 2 other teammates. <br />
               <br />
-              Stack: C++, STL, Git
+              C++, STL, Git
             </div>
           </div>
-          <div className={styles.project}>
-            Septic Shock Predictor Using XGBoost
-            <Link to="/projects/mapper">
-              <img className={styles.preview} src="/gis-mapper.png" alt="" />
-            </Link>
-            <div className={styles.text}>
-              Developed
-              <br />
-              <br />
-              Stack: Python, Scikit-Learn, XGBoost
-            </div>
-          </div>
-          <div className={styles.project}>Array Visualizer in Memory</div>
-          <div className={styles.project}>
-            ML Model Development Application Interface
-          </div>
-          <div className={styles.project}>Capstone</div>
           <div className={styles.project}>Neural Network From Scratch</div>
-          <div className={styles.project}>World Cup Draw Simulator</div>
-          <div className={styles.project}>Text</div>
+          <div className={styles.project}>Capstone</div>
+          <div className={styles.project}>Paper - Healthcare Data Bias?</div>
         </div>
       </div>
     </Layout>

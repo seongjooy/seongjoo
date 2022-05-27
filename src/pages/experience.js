@@ -19,9 +19,9 @@ const experience = () => {
             nascetur ridiculus mus. Donec nec da
           </div>
           <div className={styles.job1right} data-aos="slide-left">
+            <h2>Company</h2>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras em
-            euismod, pellentesque
-            <img src="/email.png" alt=""></img>
+            euismod, pellentesquefdsf
           </div>
         </div>
       </div>
@@ -35,10 +35,14 @@ const experience = () => {
       >
         <h2>Honours</h2>
         <h3>University of Toronto, Dean's List (3.5+ sGPA)</h3>
-        - 2019 Fall
-        <br /> - 2020 Winter <br />
+        • Fall, 2019.
+        <br /> • Winter, 2020. <br />
         <br />
         <h2>Certificates</h2>
+        <h3>Vector Institute, Bias in AI</h3>• Certificate of Completion,
+        2022.02~2022.04. <br /> <br />
+        <h3>Euclid Mathematics Contest, UWaterloo</h3>• Certificate of
+        Distinction, 2018.
       </div>
     </Layout>
   );
