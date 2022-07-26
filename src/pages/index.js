@@ -37,11 +37,11 @@ const IndexPage = () => {
             <img className={styles.dp} src="/github.png" alt=""></img>
             <div className="intro">
               <p>
-                Hi, I'm an incoming 3rd year computer engineering student at the
-                University of Toronto. I took the previous academic year
-                (2021.09~2022.05) off to intern at a startup company in Seoul,
-                and will return for Fall 2022. I was able to see how AI and web
-                development are applied in industry,
+                Hi, I'm a rising 3rd year computer engineering student at the
+                University of Toronto. I took my last academic year
+                (2021.09~2022.05) off to intern at a startup company in Seoul
+                and am returning for Fall 2022. I was able to see how AI and web
+                dev were applied in industry, I would like
               </p>
             </div>
             <div className={styles.contactlinks}>
@@ -71,7 +71,7 @@ const IndexPage = () => {
                 target="_blank"
                 rel="noreferrer"
               >
-                <img className={styles.snsbutton} src="/facebook.png" alt="" />
+                <img className={styles.snsbutton} src="facebook.png" alt="" />
               </a>
             </div>
           </div>
